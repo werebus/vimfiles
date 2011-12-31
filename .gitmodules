@@ -94,3 +94,36 @@
 [submodule "bundle-tools/buffergator"]
 	path = bundle-tools/buffergator
 	url = git://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "bundle-tools/tagbar"]
+	path = bundle-tools/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle-tools/supertab"]
+	path = bundle-tools/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "bundle-langs/textile"]
+	path = bundle-langs/textile
+	url = git://github.com/timcharper/textile.vim.git
+[submodule "bundle-tools/zoomwin"]
+	path = bundle-tools/zoomwin
+	url = git://github.com/vim-scripts/ZoomWin.git
+[submodule "bundle-tools/snipmate"]
+	path = bundle-tools/snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "bundle-tools/snipmate-snippets"]
+	path = bundle-tools/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "bundle-tools/align"]
+	path = bundle-tools/align
+	url = git://github.com/tsaleh/vim-align.git
+[submodule "bundle-tools/unimpaired"]
+	path = bundle-tools/unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle-tools/endwise"]
+	path = bundle-tools/endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "bundle-tools/syntastic"]
+	path = bundle-tools/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle-tools/css-color"]
+	path = bundle-tools/css-color
+	url = git://github.com/skammer/vim-css-color.git
