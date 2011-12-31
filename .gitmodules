@@ -79,3 +79,18 @@
 [submodule "bundle-tools/indent-object"]
 	path = bundle-tools/indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle-tools/jslint"]
+	path = bundle-tools/jslint
+	url = git://github.com/hallettj/jslint.vim.git
+[submodule "bundle-tools/nerdtree"]
+	path = bundle-tools/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle-tools/nerdcommenter"]
+	path = bundle-tools/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle-tools/surround"]
+	path = bundle-tools/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle-tools/buffergator"]
+	path = bundle-tools/buffergator
+	url = git://github.com/jeetsukumaran/vim-buffergator.git
