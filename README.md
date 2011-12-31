@@ -4,13 +4,15 @@ and [git submodules][2] to manage plugins.
 Installation
 ============
 ```bash
-$ curl -Lo- <<URL for bootstrap.sh>> | bash
+$ curl -Lo- http://git.io/Ye0UAg | bash
 ```
 
 Or, feel free to clone it yourself
+
 ```bash
 $ git clone --recursive https://github.com/umasstransit/vimfiles.git
 ```
+
 and link in or source the `vimrc` and `gvimrc` files as you like.
 
 Customization
