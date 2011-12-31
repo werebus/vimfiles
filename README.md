@@ -10,7 +10,7 @@ $ curl -Lo- http://git.io/Ye0UAg | bash
 Or, feel free to clone it yourself
 
 ```bash
-$ git clone --recursive https://github.com/umasstransit/vimfiles.git
+$ git clone --recursive https://github.com/umasstransit/vimfiles.git ~/.vim
 ```
 
 and link in or source the `vimrc` and `gvimrc` files as you like.
@@ -19,7 +19,7 @@ Customization
 =============
 Before and After Files
 ----------------------
-You can use a `~/.vimrc.before`, `~/.gvimrc.before`, `~/.vimrc.after` or
+You can use the `~/.vimrc.before`, `~/.gvimrc.before`, `~/.vimrc.after` or
 `~/.gvimrc.after` files to add your own customizations.  The "before" files
 are good for things like setting the leader or disabling plugins (see
 below), the "after" files are good for overriding settings that we set

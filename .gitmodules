@@ -139,3 +139,6 @@
 [submodule "bundle-tools/csapprox"]
 	path = bundle-tools/csapprox
 	url = git://github.com/godlygeek/csapprox.git
+[submodule "bundle-tools/vim-addon-mw-utils"]
+	path = bundle-tools/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
