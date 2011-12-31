@@ -17,3 +17,7 @@ done
 # Clone Janus into .vim
 git clone --recursive https://github.com/umasstransit/vimfiles.git $HOME/.vim \
   || die "Could not clone the repository to ${HOME}/.vim"
+
+# Link the config files in
+ln -s $HOME/.vim/vimrc $HOME/.vimrc || die "Could not link .vimrc file"
+ln -s $HOME/.vim/gvimrc $HOME/.gvimrc || die "Could not link .gvimrc file"
