@@ -10,3 +10,33 @@
 [submodule "bundle-tools/conque-term"]
 	path = bundle-tools/conque-term
 	url = git://github.com/rosenfeld/conque-term.git
+[submodule "bundle-tools/fugitive"]
+	path = bundle-tools/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle-langs/git"]
+	path = bundle-langs/git
+	url = git://github.com/tpope/vim-git.git
+[submodule "bundle-colors/getafe"]
+	path = bundle-colors/getafe
+	url = git://github.com/larssmit/getafe.git
+[submodule "bundle-colors/github"]
+	path = bundle-colors/github
+	url = git://github.com/telamon/vim-color-github.git
+[submodule "bundle-colors/irblack"]
+	path = bundle-colors/irblack
+	url = git://github.com/wgibbs/vim-irblack.git
+[submodule "bundle-colors/molokai"]
+	path = bundle-colors/molokai
+	url = git://github.com/vim-scripts/molokai.git
+[submodule "bundle-colors/pyte"]
+	path = bundle-colors/pyte
+	url = git://github.com/vim-scripts/pyte.git
+[submodule "bundle-colors/solarized"]
+	path = bundle-colors/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle-colors/vividchalk"]
+	path = bundle-colors/vividchalk
+	url = git://github.com/tpope/vim-vividchalk.git
+[submodule "bundle-colors/vwilight"]
+	path = bundle-colors/vwilight
+	url = git://github.com/bry4n/vwilight.vim.git
