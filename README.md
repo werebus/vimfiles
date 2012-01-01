@@ -1,5 +1,6 @@
-This repo is our baseline `~/.vim/` directory.  It uses [pathogen][1]
-and [git submodules][2] to manage plugins.
+This repo is our baseline `~/.vim/` directory.  It uses [Pathogen][1]
+and [git submodules][2] to manage plugins.  Many of the configurations
+used in here are inspired by [Janus][3].
 
 Installation
 ============
@@ -41,7 +42,8 @@ add some in there.
 
 And of course...
 ----------------
-You're always welcome to fork us
+You're always welcome to fork it.
 
 [1]: https://github.com/tpope/vim-pathogen
 [2]: http://book.git-scm.com/5_submodules.html
+[3]: https://github.com/carlhuda/janus
