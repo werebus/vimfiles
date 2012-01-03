@@ -112,9 +112,6 @@
 [submodule "bundle-tools/snipmate-snippets"]
 	path = bundle-tools/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets.git
-[submodule "bundle-tools/align"]
-	path = bundle-tools/align
-	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle-tools/unimpaired"]
 	path = bundle-tools/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
@@ -145,3 +142,6 @@
 [submodule "bundle-tools/tlib"]
 	path = bundle-tools/tlib
 	url = git://github.com/tomtom/tlib_vim.git
+[submodule "bundle-tools/tabular"]
+	path = bundle-tools/tabular
+	url = git://github.com/godlygeek/tabular.git
