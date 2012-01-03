@@ -142,3 +142,6 @@
 [submodule "bundle-tools/vim-addon-mw-utils"]
 	path = bundle-tools/vim-addon-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle-tools/tlib"]
+	path = bundle-tools/tlib
+	url = git://github.com/tomtom/tlib_vim.git
