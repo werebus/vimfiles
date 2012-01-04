@@ -15,12 +15,6 @@ if has("gui_macvim")
   " Command-Return for fullscreen
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 
-  " Command-Shift-F for Ack
-  map <D-F> :Ack<space>
-
-  " Command-e for ConqueTerm
-  map <D-e> :call StartTerm()<CR>
-
   " Command-/ to toggle comments
   map <D-/> <plug>NERDCommenterToggle<CR>
 

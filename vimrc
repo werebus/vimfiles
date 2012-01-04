@@ -9,6 +9,7 @@ call pathogen#infect('bundle-colors')
 call pathogen#infect('bundle-langs')
 call pathogen#infect('bundle-tools')
 call pathogen#infect('~/.bundle')
+Helptags
 
 set nocompatible
 
@@ -111,8 +112,15 @@ endfunction
 " ZoomWin config
 map <Leader><Leader> :ZoomWin<CR>
 
+" Buffergator
+map <Leader>b :BufferGatorToggle<CR>
+
+" Gundo
+map <Leader>u :GundoToggle<CR>
+
 " CTags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+map <Leader>tb :TagbarToggle<CR>
 
 " Remember last location in file
 if has("autocmd")
@@ -175,6 +183,9 @@ vmap <C-Down> ]egv
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
 
+" Controll-Shift-F for Ack
+map <Leader>f :Ack<space>
+
 " gist-vim defaults
 if has("mac")
   let g:gist_clip_command = 'pbcopy'
@@ -191,9 +202,34 @@ set modelines=10
 " Default color scheme
 color jellybeans+
 
-" Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+" Setup directories for swapfiles, backups, etc.
+function! InitializeDirectories()
+  let separator = "."
+  let parent = $HOME
+  let prefix = '.vim'
+  let dir_list = {
+                    \ 'backup': 'backupdir',
+                    \ 'views': 'viewdir',
+                    \ 'swap': 'directory',
+                    \ 'undo': 'undodir' }
+
+  for [dirname, settingname] in items(dir_list)
+    let directory = parent . '/' . prefix . dirname . "/"
+    if exists("*mkdir")
+      if !isdirectory(directory)
+        call mkdir(directory)
+      endif
+    endif
+    if !isdirectory(directory)
+      echo "Warning: Unable to create backup directory: " . directory
+      echo "Try: mkdir -p " . directory
+    else
+      let directory = substitute(directory, " ", "\\\\ ", "")
+      exec "set " . settingname . "=" . directory
+    endif
+  endfor
+endfunction
+call InitializeDirectories()
 
 " Turn off jslint errors by default
 let g:JSLintHighlightErrorLine = 0
