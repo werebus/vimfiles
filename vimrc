@@ -13,11 +13,35 @@ Helptags
 
 set nocompatible
 
+" Yank to the end of the line (consistent with C and D)
+nnoremap Y y$
+" Clear highlighted search
+nmap <silent> <leader>/ :nohlsearch<CR>
+
+set mouse=a
+
 set number
-set ruler
 syntax on
+set cursorline
+set showmatch
 
 set encoding=utf-8
+
+" Ruler and statusline
+if has('cmdline_info')
+  set ruler
+  set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
+  set showcmd
+endif
+if has('statusline')
+  set laststatus=2
+  set statusline=%<%f\ 
+  set statusline+=%w%h%m%r
+  set statusline+=%{fugitive#statusline()}
+  set statusline+=\ [%{&ff}/%Y]
+  set statusline+=\ [%{getcwd()}]
+  set statusline+=%=%-14.(%l,%c%V)\ %p%%
+endif
 
 " Whitespace stuff
 set nowrap
@@ -25,7 +49,17 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set list listchars=tab:\ \ ,trail:·
+set list
+if has('muti_byte')
+  set listchars=tab:\ \ ,trail:·,extends:→
+else
+  set listchars=tab:\ \ ,trail:.,extends:>
+endif
+
+" Backups and swaps
+set backup
+set undofile
+call InitializeDirectories()
 
 " Searching
 set hlsearch
@@ -34,11 +68,9 @@ set ignorecase
 set smartcase
 
 " Tab completion
+set wildmenu
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*
-
-" Status bar
-set laststatus=2
 
 " NERDTree config
 let NERDTreeIgnore=['\.rbc$', '\~$']
@@ -229,7 +261,6 @@ function! InitializeDirectories()
     endif
   endfor
 endfunction
-call InitializeDirectories()
 
 " Turn off jslint errors by default
 let g:JSLintHighlightErrorLine = 0
