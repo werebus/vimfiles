@@ -40,7 +40,7 @@ if has('statusline')
   set statusline+=%{fugitive#statusline()}
   set statusline+=\ [%{&ff}/%Y]
   set statusline+=\ [%{getcwd()}]
-  set statusline+=%=%-14.(%l,%c%V)\ %p%%
+  set statusline+=%=%-14.(%l,%c%V%)\ %p%%
 endif
 
 " Whitespace stuff
@@ -50,7 +50,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set list
-if has('muti_byte')
+if has('multi_byte')
   set listchars=tab:\ \ ,trail:·,extends:→
 else
   set listchars=tab:\ \ ,trail:.,extends:>
@@ -59,6 +59,33 @@ endif
 " Backups and swaps
 set backup
 set undofile
+" Setup directories for swapfiles, backups, etc.
+function! InitializeDirectories()
+  let separator = "."
+  let parent = $HOME
+  let prefix = '.vim'
+  let dir_list = {
+                    \ 'backup': 'backupdir',
+                    \ 'views': 'viewdir',
+                    \ 'swap': 'directory',
+                    \ 'undo': 'undodir' }
+
+  for [dirname, settingname] in items(dir_list)
+    let directory = parent . '/' . prefix . dirname . "/"
+    if exists("*mkdir")
+      if !isdirectory(directory)
+        call mkdir(directory)
+      endif
+    endif
+    if !isdirectory(directory)
+      echo "Warning: Unable to create backup directory: " . directory
+      echo "Try: mkdir -p " . directory
+    else
+      let directory = substitute(directory, " ", "\\\\ ", "")
+      exec "set " . settingname . "=" . directory
+    endif
+  endfor
+endfunction
 call InitializeDirectories()
 
 " Searching
@@ -233,34 +260,6 @@ set modelines=10
 
 " Default color scheme
 color jellybeans+
-
-" Setup directories for swapfiles, backups, etc.
-function! InitializeDirectories()
-  let separator = "."
-  let parent = $HOME
-  let prefix = '.vim'
-  let dir_list = {
-                    \ 'backup': 'backupdir',
-                    \ 'views': 'viewdir',
-                    \ 'swap': 'directory',
-                    \ 'undo': 'undodir' }
-
-  for [dirname, settingname] in items(dir_list)
-    let directory = parent . '/' . prefix . dirname . "/"
-    if exists("*mkdir")
-      if !isdirectory(directory)
-        call mkdir(directory)
-      endif
-    endif
-    if !isdirectory(directory)
-      echo "Warning: Unable to create backup directory: " . directory
-      echo "Try: mkdir -p " . directory
-    else
-      let directory = substitute(directory, " ", "\\\\ ", "")
-      exec "set " . settingname . "=" . directory
-    endif
-  endfor
-endfunction
 
 " Turn off jslint errors by default
 let g:JSLintHighlightErrorLine = 0
