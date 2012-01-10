@@ -8,19 +8,25 @@ Installation
 $ curl -Lo- http://git.io/Ye0UAg | bash
 ```
 
+_or_
+
+```bash
+$ wget -O- http://git.io/Ye0UAg | bash
+```
+
 Or, feel free to clone it yourself
 
 ```bash
 $ git clone --recursive https://github.com/umasstransit/vimfiles.git ~/.vim
 ```
 
-and link in or source the `vimrc` and `gvimrc` files as you like.
+and sym-link to or source the `vimrc` and `gvimrc` files as you like.
 
 Features
 ========
 Oh so many plugins, here's a quick, and not quite complete, list.
 
-*Note: below, when we refer to "`leader`", we're referring to the vim
+*Note: below, when we refer to "`<Leader>`", we're referring to the vim
 special key.  By default, that's a backslash, but you can remap it to
 some other key*
 
@@ -34,6 +40,11 @@ some other key*
 
     Mapped to `<Leader>b`, this plugin gives you a list on the left of all
     of your currently open [buffers][buff]
+
+*   [ctrl-P][ctrlp]
+
+    Fuzzy find in project, beffers, or most-used files.  Press `<c-p>`
+    to get started.
 
 *   [Conque-term][conque]
 
@@ -64,6 +75,11 @@ some other key*
 
     Mapped to `<Leader>n`, and also set to auto-appear when you call vim or
     mvim on a directory, this is a nice project tree type display
+
+*   [Sessionman][sessman]
+
+    Allows the saving and restoring of sessions.  It adds the options to
+    the "File" menu, but there are also normal-mode commands.
 
 *   [Snipmate][snipmate] and the [Snipmate Snippets][snippets]
 
@@ -120,11 +136,17 @@ And of course...
 ----------------
 You're always welcome to fork it.
 
-Todo
-====
-Both [Command-T][commt] and [Hammer][hammer] are quite popular in the
-Vim/Ruby world, and I would like to include them, but the install
-process is a bit tougher than your average vim plugin.
+Credits
+=======
+The majority of the credit here goes to [Janus][janus].  The initial
+inspiration was the old Rakefile-style Janus, but the git submodule
+tachnique is borrowed from the new Janus.
+
+Scrooloose's [vimfiles][slvf] repo alos provided some hints on usefull
+plugins.
+
+Steve Francia's [Vim distribution][spf-13] also provided some nice tips
+for the `/.vimrc` file.
 
 [path]:       https://github.com/tpope/vim-pathogen
 [gitsm]:      http://book.git-scm.com/5_submodules.html
@@ -134,12 +156,14 @@ process is a bit tougher than your average vim plugin.
 [buffg]:      https://github.com/jeetsukumaran/vim-buffergator
 [buff]:       http://vim.wikia.com/wiki/Vim_buffer_FAQ
 [conque]:     http://code.google.com/p/conque/
+[ctrlp]:      https://github.com/kien/ctrlp.vim
 [fugitive]:   https://github.com/tpope/vim-fugitive
 [gist]:       https://github.com/mattn/gist-vim
 [gundo]:      https://github.com/sjl/gundo.vim
 [indent]:     http://www.vim.org/scripts/script.php?script_id=3037
 [nc]:         https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt
 [nt]:         https://github.com/scrooloose/nerdtree
+[sessman]:    https://github.com/vim-scripts/sessionman.vim
 [snipmate]:   https://github.com/garbas/vim-snipmate
 [snippets]:   https://github.com/honza/snipmate-snippets
 [st]:         http://www.vim.org/scripts/script.php?script_id=1643
@@ -149,5 +173,5 @@ process is a bit tougher than your average vim plugin.
 [tagbar]:     http://majutsushi.github.com/tagbar/
 [ctags]:      http://ctags.sourceforge.net/
 [zoom]:       http://www.vim.org/scripts/script.php?script_id=508
-[commt]:      https://wincent.com/products/command-t
-[hammer]:     https://github.com/robgleeson/hammer.vim
+[slvf]:       https://github.com/scrooloose/vimfiles
+[spf-13]:     https://github.com/spf13/spf13-vim
