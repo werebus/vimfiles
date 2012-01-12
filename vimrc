@@ -1,10 +1,12 @@
 " Include user's local vim before file
+let g:pathogen_disabled = []
 if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
 " Source Pathogen
 runtime pathogen/autoload/pathogen.vim
+runtime plugin-disable.vim
 call pathogen#infect('bundle-colors')
 call pathogen#infect('bundle-langs')
 call pathogen#infect('bundle-tools')
