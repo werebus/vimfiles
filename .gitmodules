@@ -18,7 +18,7 @@
 	url = git://github.com/tpope/vim-git.git
 [submodule "bundle-colors/getafe"]
 	path = bundle-colors/getafe
-	url = git://github.com/larssmit/getafe.git
+	url = git://github.com/larssmit/vim-getafe.git
 [submodule "bundle-colors/github"]
 	path = bundle-colors/github
 	url = git://github.com/telamon/vim-color-github.git
