@@ -123,7 +123,6 @@ Disabling Pathogen plugins
 Put something like this in your `~/.vimrc.before` file:
 
 ```viml
-let g:pathogen_disabled = []
 call add(g:pathogen_disabled, 'someplugin')
 ```
 
