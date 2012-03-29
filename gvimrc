@@ -53,10 +53,6 @@ if has("gui_macvim")
   imap <D-M-Right> <Esc> <C-w>l
   map <D-M-Left> <C-w>h
   imap <D-M-Left> <C-w>h
-
-  " Adjust viewports to the same size
-  map <Leader>= <C-w>=
-  imap <Leader>= <Esc> <C-w>=
 endif
 
 " Start without the toolbar

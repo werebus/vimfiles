@@ -242,8 +242,11 @@ vmap <C-Down> ]egv
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
 
-" Controll-Shift-F for Ack
+" Leader-F for Ack
 map <Leader>f :Ack<space>
+
+" Adjust viewports to the same size
+map <Leader>= <C-w>=
 
 " gist-vim defaults
 if has("mac")
