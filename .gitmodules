@@ -109,9 +109,6 @@
 [submodule "bundle-tools/snipmate"]
 	path = bundle-tools/snipmate
 	url = git://github.com/garbas/vim-snipmate.git
-[submodule "bundle-tools/snipmate-snippets"]
-	path = bundle-tools/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule "bundle-tools/unimpaired"]
 	path = bundle-tools/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
