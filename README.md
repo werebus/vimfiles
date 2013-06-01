@@ -5,19 +5,19 @@ used in here are inspired by [Janus][janus].
 Installation
 ============
 ```bash
-$ curl -Lo- http://git.io/Ye0UAg | bash
+$ curl -Lo- http://git.io/p6CZ9w | bash
 ```
 
 _or_
 
 ```bash
-$ wget -O- http://git.io/Ye0UAg | bash
+$ wget -O- http://git.io/p6CZ9w | bash
 ```
 
 Or, feel free to clone it yourself
 
 ```bash
-$ git clone --recursive https://github.com/umasstransit/vimfiles.git ~/.vim
+$ git clone --recursive https://github.com/umts/vimfiles.git ~/.vim
 ```
 
 and sym-link to or source the `vimrc` and `gvimrc` files as you like.
@@ -164,7 +164,7 @@ for the `/.vimrc` file.
 [nt]:         https://github.com/scrooloose/nerdtree
 [sessman]:    https://github.com/vim-scripts/sessionman.vim
 [snipmate]:   https://github.com/garbas/vim-snipmate
-[snippets]:   https://github.com/honza/snipmate-snippets
+[snippets]:   https://github.com/scrooloose/snipmate-snippets
 [st]:         http://www.vim.org/scripts/script.php?script_id=1643
 [surround]:   https://github.com/tpope/vim-surround
 [syntastic]:  https://github.com/scrooloose/syntastic

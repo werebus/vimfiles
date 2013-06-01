@@ -15,7 +15,7 @@ for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do
 done
 
 # Clone Janus into .vim
-git clone --recursive https://github.com/umasstransit/vimfiles.git $HOME/.vim \
+git clone --recursive https://github.com/umts/vimfiles.git $HOME/.vim \
   || die "Could not clone the repository to ${HOME}/.vim"
 
 # Link the config files in
