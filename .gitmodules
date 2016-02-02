@@ -120,7 +120,7 @@
 	url = git://github.com/vim-scripts/sessionman.vim.git
 [submodule "bundle-tools/ctrlp"]
 	path = bundle-tools/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
+	url = git://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "bundle-tools/snipmate-snippets"]
 	path = bundle-tools/snipmate-snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
