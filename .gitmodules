@@ -127,3 +127,12 @@
 [submodule "bundle-tools/vim-snippets"]
 	path = bundle-tools/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle-langs/chef"]
+	path = bundle-langs/chef
+	url = https://github.com/t9md/vim-chef.git
+[submodule "bundle-tools/git-gutter"]
+	path = bundle-tools/git-gutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle-langs/latex"]
+	path = bundle-langs/latex
+	url = https://github.com/mineiro/vim-latex.git
