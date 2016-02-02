@@ -1,126 +1,126 @@
 [submodule "pathogen"]
 	path = pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle-tools/ack"]
 	path = bundle-tools/ack
-	url = git://github.com/mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle-tools/fugitive"]
 	path = bundle-tools/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle-langs/git"]
 	path = bundle-langs/git
-	url = git://github.com/tpope/vim-git.git
+	url = https://github.com/tpope/vim-git.git
 [submodule "bundle-colors/getafe"]
 	path = bundle-colors/getafe
-	url = git://github.com/larssmit/vim-getafe.git
+	url = https://github.com/larssmit/vim-getafe.git
 [submodule "bundle-colors/github"]
 	path = bundle-colors/github
-	url = git://github.com/telamon/vim-color-github.git
+	url = https://github.com/telamon/vim-color-github.git
 [submodule "bundle-colors/irblack"]
 	path = bundle-colors/irblack
-	url = git://github.com/wgibbs/vim-irblack.git
+	url = https://github.com/wgibbs/vim-irblack.git
 [submodule "bundle-colors/molokai"]
 	path = bundle-colors/molokai
-	url = git://github.com/vim-scripts/molokai.git
+	url = https://github.com/vim-scripts/molokai.git
 [submodule "bundle-colors/pyte"]
 	path = bundle-colors/pyte
-	url = git://github.com/vim-scripts/pyte.git
+	url = https://github.com/vim-scripts/pyte.git
 [submodule "bundle-colors/solarized"]
 	path = bundle-colors/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle-colors/vividchalk"]
 	path = bundle-colors/vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
+	url = https://github.com/tpope/vim-vividchalk.git
 [submodule "bundle-colors/vwilight"]
 	path = bundle-colors/vwilight
-	url = git://github.com/bry4n/vwilight.vim.git
+	url = https://github.com/bry4n/vwilight.vim.git
 [submodule "bundle-langs/csv"]
 	path = bundle-langs/csv
-	url = git://github.com/vim-scripts/csv.vim.git
+	url = https://github.com/vim-scripts/csv.vim.git
 [submodule "bundle-langs/coffee-script"]
 	path = bundle-langs/coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle-langs/haml"]
 	path = bundle-langs/haml
-	url = git://github.com/tpope/vim-haml.git
+	url = https://github.com/tpope/vim-haml.git
 [submodule "bundle-langs/javascript"]
 	path = bundle-langs/javascript
-	url = git://github.com/pangloss/vim-javascript.git
+	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle-langs/markdown"]
 	path = bundle-langs/markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle-langs/nodejs"]
 	path = bundle-langs/nodejs
-	url = git://github.com/mmalecki/vim-node.js.git
+	url = https://github.com/mmalecki/vim-node.js.git
 [submodule "bundle-langs/rails"]
 	path = bundle-langs/rails
-	url = git://github.com/tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle-langs/rspec"]
 	path = bundle-langs/rspec
-	url = git://github.com/skwp/vim-rspec.git
+	url = https://github.com/skwp/vim-rspec.git
 [submodule "bundle-langs/ruby"]
 	path = bundle-langs/ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle-langs/scss"]
 	path = bundle-langs/scss
-	url = git://github.com/cakebaker/scss-syntax.vim.git
+	url = https://github.com/cakebaker/scss-syntax.vim.git
 [submodule "bundle-tools/indent-object"]
 	path = bundle-tools/indent-object
-	url = git://github.com/michaeljsmith/vim-indent-object.git
+	url = https://github.com/michaeljsmith/vim-indent-object.git
 [submodule "bundle-tools/nerdtree"]
 	path = bundle-tools/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle-tools/nerdcommenter"]
 	path = bundle-tools/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle-tools/surround"]
 	path = bundle-tools/surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle-tools/buffergator"]
 	path = bundle-tools/buffergator
-	url = git://github.com/jeetsukumaran/vim-buffergator.git
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
 [submodule "bundle-tools/supertab"]
 	path = bundle-tools/supertab
-	url = git://github.com/ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "bundle-tools/zoomwin"]
 	path = bundle-tools/zoomwin
-	url = git://github.com/vim-scripts/ZoomWin.git
+	url = https://github.com/vim-scripts/ZoomWin.git
 [submodule "bundle-tools/endwise"]
 	path = bundle-tools/endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle-tools/syntastic"]
 	path = bundle-tools/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle-tools/css-color"]
 	path = bundle-tools/css-color
-	url = git://github.com/skammer/vim-css-color.git
+	url = https://github.com/skammer/vim-css-color.git
 [submodule "bundle-tools/gundo"]
 	path = bundle-tools/gundo
-	url = git://github.com/sjl/gundo.vim.git
+	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle-tools/rename2"]
 	path = bundle-tools/rename2
-	url = git://github.com/vim-scripts/Rename2.git
+	url = https://github.com/vim-scripts/Rename2.git
 [submodule "bundle-tools/csapprox"]
 	path = bundle-tools/csapprox
-	url = git://github.com/godlygeek/csapprox.git
+	url = https://github.com/godlygeek/csapprox.git
 [submodule "bundle-tools/vim-addon-mw-utils"]
 	path = bundle-tools/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle-tools/tlib"]
 	path = bundle-tools/tlib
-	url = git://github.com/tomtom/tlib_vim.git
+	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle-tools/tabular"]
 	path = bundle-tools/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle-tools/sessionman"]
 	path = bundle-tools/sessionman
-	url = git://github.com/vim-scripts/sessionman.vim.git
+	url = https://github.com/vim-scripts/sessionman.vim.git
 [submodule "bundle-tools/ctrlp"]
 	path = bundle-tools/ctrlp
-	url = git://github.com/ctrlpvim/ctrlp.vim.git
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "bundle-colors/Colour-Sampler-Pack"]
 	path = bundle-colors/Colour-Sampler-Pack
-	url = git://github.com/vim-scripts/Colour-Sampler-Pack.git
+	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
 [submodule "bundle-tools/ultisnips"]
 	path = bundle-tools/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
