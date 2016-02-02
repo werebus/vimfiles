@@ -7,10 +7,10 @@ endif
 " Source Pathogen
 runtime pathogen/autoload/pathogen.vim
 runtime plugin-disable.vim
-call pathogen#infect('bundle-colors/{}')
-call pathogen#infect('bundle-langs/{}')
-call pathogen#infect('bundle-tools/{}')
-call pathogen#infect('~/.bundle/{}')
+execute pathogen#infect('bundle-colors/{}')
+execute pathogen#infect('bundle-langs/{}')
+execute pathogen#infect('bundle-tools/{}')
+execute pathogen#infect('~/.bundle/{}')
 Helptags
 
 set nocompatible
@@ -142,6 +142,9 @@ map <Leader>= <C-w>=
 " Use modeline overrides
 set modeline
 set modelines=10
+
+" For sessions to work with pathogen
+set sessionoptions-=options
 
 " Default color scheme
 color jellybeans+
