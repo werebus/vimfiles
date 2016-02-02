@@ -59,7 +59,7 @@ let g:syntastic_quiet_warnings=1
 " Default color scheme
 color jellybeans+
 
-" Include user's local vim after file
+" Include user's local vimrc file
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif

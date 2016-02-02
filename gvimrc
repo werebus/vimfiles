@@ -1,8 +1,3 @@
-" Include user's local gvim before file
-if filereadable(expand("~/.gvimrc.before"))
-  source ~/.gvimrc.before
-endif
-
 if has("gui_macvim")
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
@@ -11,10 +6,19 @@ if has("gui_macvim")
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 endif
 
-" Start without the toolbar
+" Start without the toolbar and scrollbars
 set guioptions-=T
+set guioptions-=r
+set guioptions-=L
 
-" Include user's local gvim after file
-if filereadable(expand("~/.gvimrc.after"))
-  source ~/.gvimrc.after
+" Pretty font
+if has("gui_macvim")
+  set guifont=Inconsolata:h14
+else
+  set guifont=Inconsolata\ Medium\ 20
+endif
+
+" Include user's local gvimrc file
+if filereadable(expand("~/.gvimrc.local"))
+  source ~/.gvimrc.local
 endif
