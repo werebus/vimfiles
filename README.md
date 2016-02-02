@@ -5,13 +5,13 @@ used in here are inspired by [Janus][janus].
 Installation
 ============
 ```bash
-$ curl -Lo- http://git.io/p6CZ9w | bash
+$ curl -Lo- https://git.io/vgUw4 | bash
 ```
 
 _or_
 
 ```bash
-$ wget -O- http://git.io/p6CZ9w | bash
+$ wget -O- https://git.io/vgUw4 | bash
 ```
 
 Or, feel free to clone it yourself
@@ -46,18 +46,9 @@ some other key*
     Fuzzy find in project, beffers, or most-used files.  Press `<c-p>`
     to get started.
 
-*   [Conque-term][conque]
-
-    Launches a terminal (or really any shell) in the current window.  For
-    your convenience, there is a custon function, `StartTerm()` that will
-    launch a login version of your default shell.  You could map it to a
-    keystroke if you use it often.
-
 *   [Fugitive][fugitive]
 
     Awesome git integration.
-
-*   [Gist][gist]
 
 *   [Gundo][gundo]
 
@@ -96,12 +87,6 @@ some other key*
 
     This plugin is for making your text line up.  Maybe type `:Tab` and see
     what happens.
-
-*   [Tagbar][tagbar]
-
-    Mapped to `<Leader>tb`, shows a list of tags (ie functions, variables,
-    etc) for the current file.  This plugin requires the exuberant variety
-    of [ctags][ctags] -- install it with homebrew or apt-get.
 
 *   [Zoomwin][zoom]
 
@@ -154,10 +139,8 @@ for the `/.vimrc` file.
 [align]:      http://www.vim.org/scripts/script.php?script_id=294
 [buffg]:      https://github.com/jeetsukumaran/vim-buffergator
 [buff]:       http://vim.wikia.com/wiki/Vim_buffer_FAQ
-[conque]:     http://code.google.com/p/conque/
 [ctrlp]:      https://github.com/kien/ctrlp.vim
 [fugitive]:   https://github.com/tpope/vim-fugitive
-[gist]:       https://github.com/mattn/gist-vim
 [gundo]:      https://github.com/sjl/gundo.vim
 [indent]:     http://www.vim.org/scripts/script.php?script_id=3037
 [nc]:         https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt
@@ -169,8 +152,6 @@ for the `/.vimrc` file.
 [surround]:   https://github.com/tpope/vim-surround
 [syntastic]:  https://github.com/scrooloose/syntastic
 [tabular]:    http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
-[tagbar]:     http://majutsushi.github.com/tagbar/
-[ctags]:      http://ctags.sourceforge.net/
 [zoom]:       http://www.vim.org/scripts/script.php?script_id=508
 [slvf]:       https://github.com/scrooloose/vimfiles
 [spf-13]:     https://github.com/spf13/spf13-vim

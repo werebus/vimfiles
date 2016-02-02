@@ -4,9 +4,6 @@
 [submodule "bundle-tools/ack"]
 	path = bundle-tools/ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule "bundle-tools/conque-term"]
-	path = bundle-tools/conque-term
-	url = git://github.com/rosenfeld/conque-term.git
 [submodule "bundle-tools/fugitive"]
 	path = bundle-tools/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
@@ -43,15 +40,9 @@
 [submodule "bundle-langs/coffee-script"]
 	path = bundle-langs/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle-langs/cucumber"]
-	path = bundle-langs/cucumber
-	url = git://github.com/tpope/vim-cucumber.git
 [submodule "bundle-langs/haml"]
 	path = bundle-langs/haml
 	url = git://github.com/tpope/vim-haml.git
-[submodule "bundle-langs/handlebars"]
-	path = bundle-langs/handlebars
-	url = git://github.com/nono/vim-handlebars.git
 [submodule "bundle-langs/javascript"]
 	path = bundle-langs/javascript
 	url = git://github.com/pangloss/vim-javascript.git
@@ -76,9 +67,6 @@
 [submodule "bundle-tools/indent-object"]
 	path = bundle-tools/indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
-[submodule "bundle-tools/jslint"]
-	path = bundle-tools/jslint
-	url = git://github.com/hallettj/jslint.vim.git
 [submodule "bundle-tools/nerdtree"]
 	path = bundle-tools/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -91,24 +79,15 @@
 [submodule "bundle-tools/buffergator"]
 	path = bundle-tools/buffergator
 	url = git://github.com/jeetsukumaran/vim-buffergator.git
-[submodule "bundle-tools/tagbar"]
-	path = bundle-tools/tagbar
-	url = git://github.com/majutsushi/tagbar.git
 [submodule "bundle-tools/supertab"]
 	path = bundle-tools/supertab
 	url = git://github.com/ervandew/supertab.git
-[submodule "bundle-langs/textile"]
-	path = bundle-langs/textile
-	url = git://github.com/timcharper/textile.vim.git
 [submodule "bundle-tools/zoomwin"]
 	path = bundle-tools/zoomwin
 	url = git://github.com/vim-scripts/ZoomWin.git
 [submodule "bundle-tools/snipmate"]
 	path = bundle-tools/snipmate
 	url = git://github.com/garbas/vim-snipmate.git
-[submodule "bundle-tools/unimpaired"]
-	path = bundle-tools/unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
 [submodule "bundle-tools/endwise"]
 	path = bundle-tools/endwise
 	url = git://github.com/tpope/vim-endwise.git
@@ -118,9 +97,6 @@
 [submodule "bundle-tools/css-color"]
 	path = bundle-tools/css-color
 	url = git://github.com/skammer/vim-css-color.git
-[submodule "bundle-tools/gist"]
-	path = bundle-tools/gist
-	url = git://github.com/mattn/gist-vim.git
 [submodule "bundle-tools/gundo"]
 	path = bundle-tools/gundo
 	url = git://github.com/sjl/gundo.vim.git
