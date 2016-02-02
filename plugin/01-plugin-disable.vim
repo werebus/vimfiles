@@ -1,5 +1,6 @@
 "Borrowed from the Janus project, pre-disables various plugins that have
 "external dependancies.
+let g:pathogen_disabled = []
 
 " Plugins that requires python support
 if !has("python")
