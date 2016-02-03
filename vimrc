@@ -1,6 +1,5 @@
 " Source Pathogen
 runtime pathogen/autoload/pathogen.vim
-runtime plugin-disable.vim
 execute pathogen#infect('bundle-colors/{}')
 execute pathogen#infect('bundle-langs/{}')
 execute pathogen#infect('bundle-tools/{}')

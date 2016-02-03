@@ -72,8 +72,6 @@ some other key*
     Allows the saving and restoring of sessions.  It adds the options to
     the "File" menu, but there are also normal-mode commands.
 
-*   [Snipmate][snipmate] and the [Snipmate Snippets][snippets]
-
 *   [Supertab][st] tab-completion (`:h supertab`)
 
 *   [Surround][surround]
@@ -88,6 +86,8 @@ some other key*
     This plugin is for making your text line up.  Maybe type `:Tab` and see
     what happens.
 
+*   [Ultisnips][ultisnips] and [a collection of snippets][snippets]
+
 *   [Zoomwin][zoom]
 
     Mapped to `<Leader><Leader>`, zooms into the current window, making it
@@ -95,21 +95,15 @@ some other key*
 
 Customization
 =============
-Before and After Files
+"Local" Files
 ----------------------
-You can use the `~/.vimrc.before`, `~/.gvimrc.before`, `~/.vimrc.after` or
-`~/.gvimrc.after` files to add your own customizations.  The "before" files
-are good for things like setting the leader or disabling plugins (see
-below), the "after" files are good for overriding settings that we set
-for you.
+You can use a `~/.vimrc.local` or `~/.gvimrc.local` file to add customizations
+that are specific to a particular machine.
 
 Disabling Pathogen plugins
 --------------------------
-Put something like this in your `~/.vimrc.before` file:
-
-```viml
-call add(g:pathogen_disabled, 'someplugin')
-```
+Of course you can delete them, but there's also a mechanism for disabling
+specific plugins in `~/.vim/plugin/01-plugin-disable.vim`
 
 Adding Pathogen plugins
 -----------------------
@@ -147,11 +141,12 @@ for the `/.vimrc` file.
 [nt]:         https://github.com/scrooloose/nerdtree
 [sessman]:    https://github.com/vim-scripts/sessionman.vim
 [snipmate]:   https://github.com/garbas/vim-snipmate
-[snippets]:   https://github.com/scrooloose/snipmate-snippets
 [st]:         http://www.vim.org/scripts/script.php?script_id=1643
 [surround]:   https://github.com/tpope/vim-surround
 [syntastic]:  https://github.com/scrooloose/syntastic
 [tabular]:    http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+[ultisnips]:  https://github.com/SirVer/ultisnips
+[snippets]:   https://github.com/honza/vim-snippets
 [zoom]:       http://www.vim.org/scripts/script.php?script_id=508
 [slvf]:       https://github.com/scrooloose/vimfiles
 [spf-13]:     https://github.com/spf13/spf13-vim
