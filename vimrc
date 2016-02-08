@@ -14,7 +14,6 @@ set encoding=utf-8
 set number
 set cursorline
 set showmatch
-set showcmd
 filetype plugin indent on
 syntax on
 
