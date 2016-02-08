@@ -10,5 +10,6 @@ cmap w!! w !sudo tee % >/dev/null
 map <Leader>b :BufferGatorToggle<CR>
 map <Leader>f :Ack<space>
 map <Leader>n :NERDTreeToggle<CR>
+map <Leader>t :TagbarToggle<CR>
 map <Leader>u :GundoToggle<CR>
 map <Leader><Leader> :ZoomWin<CR>

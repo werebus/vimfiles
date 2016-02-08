@@ -136,3 +136,6 @@
 [submodule "bundle-langs/latex"]
 	path = bundle-langs/latex
 	url = https://github.com/mineiro/vim-latex.git
+[submodule "bundle-tools/tagbar"]
+	path = bundle-tools/tagbar
+	url = https://github.com/majutsushi/tagbar.git
