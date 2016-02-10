@@ -36,6 +36,14 @@ set incsearch
 set ignorecase
 set smartcase
 
+" Temp files
+set backup
+set backupdir=~/.vim/backup
+set viewdir=~/.vim/views
+set directory=~/.vim/swap
+set undofile
+set undodir=~/.vim/undo
+
 " Tab completion
 set wildmenu
 set wildmode=list:longest,list:full
