@@ -59,7 +59,7 @@ if has("autocmd")
 endif
 
 " Default color scheme
-color jellybeans+
+color jellybeans
 
 " Include user's local vimrc file
 if filereadable(expand("~/.vimrc.local"))
