@@ -180,7 +180,7 @@
 	ignore = dirty
 [submodule "bundle-langs/latex"]
 	path = bundle-langs/latex
-	url = https://github.com/mineiro/vim-latex.git
+	url = https://github.com/vim-latex/vim-latex.git
 	ignore = dirty
 [submodule "bundle-tools/tagbar"]
 	path = bundle-tools/tagbar
