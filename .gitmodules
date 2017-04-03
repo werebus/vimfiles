@@ -186,3 +186,7 @@
 	path = bundle-tools/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 	ignore = dirty
+[submodule "bundle-langs/typescript"]
+	path = bundle-langs/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
+	ignore = dirty
