@@ -14,21 +14,21 @@ _or_
 $ wget -O- https://git.io/vgUw4 | bash
 ```
 
-Or, feel free to clone it yourself
+_Or_, feel free to clone it yourself
 
 ```bash
 $ git clone --recursive https://github.com/umts/vimfiles.git ~/.vim
 ```
 
-and sym-link to or source the `vimrc` and `gvimrc` files as you like.
+and then sym-link to or source the `vimrc` and `gvimrc` files as you like.
 
 Features
 ========
 Oh so many plugins, here's a quick, and not quite complete, list.
 
 *Note: below, when we refer to "`<Leader>`", we're referring to the vim
-special key.  By default, that's a backslash, but you can remap it to
-some other key*
+special key.  By default, that's a comma, but you can remap it to
+some other key in `plugin/00-leader.vim`*
 
 *   [Vim-ack][ack]
 
@@ -43,7 +43,7 @@ some other key*
 
 *   [ctrl-P][ctrlp]
 
-    Fuzzy find in project, beffers, or most-used files.  Press `<c-p>`
+    Fuzzy find in project, buffers, or most-used files.  Press `<c-p>`
     to get started.
 
 *   [Fugitive][fugitive]
@@ -79,7 +79,7 @@ some other key*
     This plugin contains all sorts of commands for wrapping chunks of text
     in parentheses, etc.
 
-*   [Syntastic][syntastic] synax checker
+*   [Syntastic][syntastic] syntax checker
 
 *   [Tabular][tabular]
 
@@ -118,9 +118,9 @@ Credits
 =======
 The majority of the credit here goes to [Janus][janus].  The initial
 inspiration was the old Rakefile-style Janus, but the git submodule
-tachnique is borrowed from the new Janus.
+technique is borrowed from the new Janus.
 
-Scrooloose's [vimfiles][slvf] repo alos provided some hints on usefull
+Scrooloose's [vimfiles][slvf] repo also provided some hints on useful
 plugins.
 
 Steve Francia's [Vim distribution][spf-13] also provided some nice tips
