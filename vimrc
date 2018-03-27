@@ -43,6 +43,7 @@ set viewdir=~/.vim/views
 set directory=~/.vim/swap
 set undofile
 set undodir=~/.vim/undo
+set viminfofile=~/.vim/info
 
 " Tab completion
 set wildmenu
