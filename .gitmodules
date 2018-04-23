@@ -190,3 +190,7 @@
 	path = bundle-langs/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
 	ignore = dirty
+[submodule "bundle-langs/terraform"]
+	path = bundle-langs/terraform
+	url = https://github.com/hashivim/vim-terraform.git
+  ignore = dirty
