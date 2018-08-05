@@ -194,3 +194,7 @@
 	path = bundle-langs/terraform
 	url = https://github.com/hashivim/vim-terraform.git
   ignore = dirty
+[submodule "bundle-langs/openhab"]
+	path = bundle-langs/openhab
+	url = https://github.com/cyberkov/openhab-vim.git
+  ignore = dirty
