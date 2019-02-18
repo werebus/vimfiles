@@ -1,200 +1,200 @@
 [submodule "bundle-tools/ack"]
-	path = bundle-tools/ack
+	path = pack/tools/start/ack
 	url = https://github.com/mileszs/ack.vim.git
 	ignore = dirty
 [submodule "bundle-tools/fugitive"]
-	path = bundle-tools/fugitive
+	path = pack/tools/start/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 	ignore = dirty
 [submodule "bundle-langs/git"]
-	path = bundle-langs/git
+	path = pack/languages/start/git
 	url = https://github.com/tpope/vim-git.git
 	ignore = dirty
 [submodule "bundle-colors/getafe"]
-	path = bundle-colors/getafe
+	path = pack/colors/start/getafe
 	url = https://github.com/larssmit/vim-getafe.git
 	ignore = dirty
 [submodule "bundle-colors/github"]
-	path = bundle-colors/github
+	path = pack/colors/start/github
 	url = https://github.com/telamon/vim-color-github.git
 	ignore = dirty
 [submodule "bundle-colors/irblack"]
-	path = bundle-colors/irblack
+	path = pack/colors/start/irblack
 	url = https://github.com/wgibbs/vim-irblack.git
 	ignore = dirty
 [submodule "bundle-colors/molokai"]
-	path = bundle-colors/molokai
+	path = pack/colors/start/molokai
 	url = https://github.com/vim-scripts/molokai.git
 	ignore = dirty
 [submodule "bundle-colors/pyte"]
-	path = bundle-colors/pyte
+	path = pack/colors/start/pyte
 	url = https://github.com/vim-scripts/pyte.git
 	ignore = dirty
 [submodule "bundle-colors/solarized"]
-	path = bundle-colors/solarized
+	path = pack/colors/start/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 	ignore = dirty
 [submodule "bundle-colors/vividchalk"]
-	path = bundle-colors/vividchalk
+	path = pack/colors/start/vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
 	ignore = dirty
 [submodule "bundle-colors/vwilight"]
-	path = bundle-colors/vwilight
+	path = pack/colors/start/vwilight
 	url = https://github.com/bry4n/vwilight.vim.git
 	ignore = dirty
 [submodule "bundle-langs/csv"]
-	path = bundle-langs/csv
+	path = pack/languages/start/csv
 	url = https://github.com/vim-scripts/csv.vim.git
 	ignore = dirty
 [submodule "bundle-langs/coffee-script"]
-	path = bundle-langs/coffee-script
+	path = pack/languages/start/coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
 	ignore = dirty
 [submodule "bundle-langs/haml"]
-	path = bundle-langs/haml
+	path = pack/languages/start/haml
 	url = https://github.com/tpope/vim-haml.git
 	ignore = dirty
 [submodule "bundle-langs/javascript"]
-	path = bundle-langs/javascript
+	path = pack/languages/start/javascript
 	url = https://github.com/pangloss/vim-javascript.git
 	ignore = dirty
 [submodule "bundle-langs/markdown"]
-	path = bundle-langs/markdown
+	path = pack/languages/start/markdown
 	url = https://github.com/tpope/vim-markdown.git
 	ignore = dirty
 [submodule "bundle-langs/nodejs"]
-	path = bundle-langs/nodejs
+	path = pack/languages/start/nodejs
 	url = https://github.com/mmalecki/vim-node.js.git
 	ignore = dirty
 [submodule "bundle-langs/rails"]
-	path = bundle-langs/rails
+	path = pack/languages/start/rails
 	url = https://github.com/tpope/vim-rails.git
 	ignore = dirty
 [submodule "bundle-langs/rspec"]
-	path = bundle-langs/rspec
+	path = pack/languages/start/rspec
 	url = https://github.com/skwp/vim-rspec.git
 	ignore = dirty
 [submodule "bundle-langs/ruby"]
-	path = bundle-langs/ruby
+	path = pack/languages/start/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
 	ignore = dirty
 [submodule "bundle-langs/scss"]
-	path = bundle-langs/scss
+	path = pack/languages/start/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
 	ignore = dirty
 [submodule "bundle-tools/indent-object"]
-	path = bundle-tools/indent-object
+	path = pack/tools/start/indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
 	ignore = dirty
 [submodule "bundle-tools/nerdtree"]
-	path = bundle-tools/nerdtree
+	path = pack/tools/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 	ignore = dirty
 [submodule "bundle-tools/nerdcommenter"]
-	path = bundle-tools/nerdcommenter
+	path = pack/tools/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 	ignore = dirty
 [submodule "bundle-tools/surround"]
-	path = bundle-tools/surround
+	path = pack/tools/start/surround
 	url = https://github.com/tpope/vim-surround.git
 	ignore = dirty
 [submodule "bundle-tools/buffergator"]
-	path = bundle-tools/buffergator
+	path = pack/tools/start/buffergator
 	url = https://github.com/jeetsukumaran/vim-buffergator.git
 	ignore = dirty
 [submodule "bundle-tools/supertab"]
-	path = bundle-tools/supertab
+	path = pack/tools/start/supertab
 	url = https://github.com/ervandew/supertab.git
 	ignore = dirty
 [submodule "bundle-tools/zoomwin"]
-	path = bundle-tools/zoomwin
+	path = pack/tools/start/zoomwin
 	url = https://github.com/vim-scripts/ZoomWin.git
 	ignore = dirty
 [submodule "bundle-tools/endwise"]
-	path = bundle-tools/endwise
+	path = pack/tools/start/endwise
 	url = https://github.com/tpope/vim-endwise.git
 	ignore = dirty
 [submodule "bundle-tools/syntastic"]
-	path = bundle-tools/syntastic
+	path = pack/tools/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = dirty
 [submodule "bundle-tools/css-color"]
-	path = bundle-tools/css-color
+	path = pack/tools/start/css-color
 	url = https://github.com/skammer/vim-css-color.git
 	ignore = dirty
 [submodule "bundle-tools/gundo"]
-	path = bundle-tools/gundo
+	path = pack/tools/start/gundo
 	url = https://github.com/sjl/gundo.vim.git
 	ignore = dirty
 [submodule "bundle-tools/rename2"]
-	path = bundle-tools/rename2
+	path = pack/tools/start/rename2
 	url = https://github.com/vim-scripts/Rename2.git
 	ignore = dirty
 [submodule "bundle-tools/csapprox"]
-	path = bundle-tools/csapprox
+	path = pack/tools/start/csapprox
 	url = https://github.com/godlygeek/csapprox.git
 	ignore = dirty
 [submodule "bundle-tools/vim-addon-mw-utils"]
-	path = bundle-tools/vim-addon-mw-utils
+	path = pack/tools/start/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 	ignore = dirty
 [submodule "bundle-tools/tlib"]
-	path = bundle-tools/tlib
+	path = pack/tools/start/tlib
 	url = https://github.com/tomtom/tlib_vim.git
 	ignore = dirty
 [submodule "bundle-tools/tabular"]
-	path = bundle-tools/tabular
+	path = pack/tools/start/tabular
 	url = https://github.com/godlygeek/tabular.git
 	ignore = dirty
 [submodule "bundle-tools/sessionman"]
-	path = bundle-tools/sessionman
+	path = pack/tools/start/sessionman
 	url = https://github.com/vim-scripts/sessionman.vim.git
 	ignore = dirty
 [submodule "bundle-tools/ctrlp"]
-	path = bundle-tools/ctrlp
+	path = pack/tools/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
 	ignore = dirty
 [submodule "bundle-colors/Colour-Sampler-Pack"]
-	path = bundle-colors/Colour-Sampler-Pack
+	path = pack/colors/start/Colour-Sampler-Pack
 	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
 	ignore = dirty
 [submodule "bundle-tools/ultisnips"]
-	path = bundle-tools/ultisnips
+	path = pack/tools/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
 	ignore = dirty
 [submodule "bundle-tools/vim-snippets"]
-	path = bundle-tools/vim-snippets
+	path = pack/tools/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
 	ignore = dirty
 [submodule "bundle-langs/chef"]
-	path = bundle-langs/chef
+	path = pack/languages/start/chef
 	url = https://github.com/t9md/vim-chef.git
 	ignore = dirty
 [submodule "bundle-tools/git-gutter"]
-	path = bundle-tools/git-gutter
+	path = pack/tools/start/git-gutter
 	url = https://github.com/airblade/vim-gitgutter.git
 	ignore = dirty
 [submodule "bundle-langs/latex"]
-	path = bundle-langs/latex
+	path = pack/languages/start/latex
 	url = https://github.com/vim-latex/vim-latex.git
 	ignore = dirty
 [submodule "bundle-tools/tagbar"]
-	path = bundle-tools/tagbar
+	path = pack/tools/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 	ignore = dirty
 [submodule "bundle-langs/typescript"]
-	path = bundle-langs/typescript
+	path = pack/languages/start/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
 	ignore = dirty
 [submodule "bundle-langs/openhab"]
-	path = bundle-langs/openhab
+	path = pack/languages/start/openhab
 	url = https://github.com/cyberkov/openhab-vim.git
 	ignore = dirty
 [submodule "bundle-tools/vim-airline"]
-	path = bundle-tools/vim-airline
+	path = pack/tools/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 	ignore = dirty
 [submodule "bundle-tools/vim-airline-themes"]
-	path = bundle-tools/vim-airline-themes
+	path = pack/tools/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
 	ignore = dirty
