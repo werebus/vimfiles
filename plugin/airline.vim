@@ -13,13 +13,22 @@ if has("gui_running")
   let g:airline_symbols.linenr = '☰'
   let g:airline_symbols.maxlinenr = ''
 else
-  let g:airline_left_sep = '▶'
-  let g:airline_left_alt_sep = '»'
-  let g:airline_right_sep = '◀'
-  let g:airline_right_alt_sep = '«'
-  let g:airline_symbols.branch = 'ߌ'
+  if has('multi_byte')
+    let g:airline_left_sep = '▶'
+    let g:airline_left_alt_sep = '»'
+    let g:airline_right_sep = '◀'
+    let g:airline_right_alt_sep = '«'
+    let g:airline_symbols.branch = 'ߌ'
+    let g:airline_symbols.crypt = '≸'
+  else
+    let g:airline_left_sep = '>'
+    let g:airline_left_alt_sep = '>'
+    let g:airline_right_sep = '<'
+    let g:airline_right_alt_sep = '<'
+    let g:airline_symbols.branch = 'Y'
+    let g:airline_symbols.crypt = '[x]'
+  endif
   let g:airline_symbols.readonly = 'RO'
-  let g:airline_symbols.crypt = '≸'
   let g:airline_symbols.linenr = '-'
   let g:airline_symbols.maxlinenr = ''
 endif
