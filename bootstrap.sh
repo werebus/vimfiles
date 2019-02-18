@@ -21,7 +21,3 @@ git clone --recursive https://github.com/werebus/vimfiles.git $HOME/.vim \
 # Link the config files in
 ln -s $HOME/.vim/vimrc $HOME/.vimrc || die "Could not link .vimrc file"
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc || die "Could not link .gvimrc file"
-
-# Install the powerline patched fonts
-[ -f $HOME/.vim/powerline-fonts/install.sh ] && \
-  $HOME/.vim/powerline-fonts/install.sh Inconsolata

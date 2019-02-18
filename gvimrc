@@ -15,7 +15,7 @@ set guioptions-=L
 if has("gui_macvim")
   set guifont=Inconsolata:h14
 else
-  set guifont=Inconsolata\ for\ Powerline\ Medium\ 20,Inconsolata\ Medium\ 20
+  set guifont=Inconsolata\ Medium\ 20
 endif
 
 " Include user's local gvimrc file
