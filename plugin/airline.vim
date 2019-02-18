@@ -13,7 +13,7 @@ if has("gui_running")
   let g:airline_symbols.linenr = '☰'
   let g:airline_symbols.maxlinenr = ''
 else
-  if has('multi_byte')
+  if has("multi_byte")
     let g:airline_left_sep = '▶'
     let g:airline_left_alt_sep = '»'
     let g:airline_right_sep = '◀'
@@ -38,4 +38,5 @@ let g:airline_symbols.spell = 'Ꞩ'
 let g:airline_symbols.notexists = 'Ɇ'
 let g:airline_symbols.whitespace = 'Ξ'
 
-let g:airline_theme='bubblegum'
+" let g:airline_theme='bubblegum'
+AirlineTheme bubblegum
