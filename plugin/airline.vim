@@ -19,3 +19,5 @@ if has("gui_running")
   let g:airline_symbols.notexists = 'Ɇ'
   let g:airline_symbols.whitespace = 'Ξ'
 endif
+
+let g:airline_theme='bubblegum'
