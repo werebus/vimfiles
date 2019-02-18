@@ -1,13 +1,3 @@
-" Source Pathogen
-runtime pathogen/autoload/pathogen.vim
-execute pathogen#infect('bundle-colors/{}')
-execute pathogen#infect('bundle-langs/{}')
-execute pathogen#infect('bundle-tools/{}')
-execute pathogen#infect('~/.bundle/{}')
-Helptags
-" For sessions to work with pathogen
-set sessionoptions-=options
-
 set nocompatible
 set backspace=indent,eol,start
 set encoding=utf-8
