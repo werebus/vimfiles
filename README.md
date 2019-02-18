@@ -1,6 +1,7 @@
-This repo is our baseline `~/.vim/` directory.  It uses [Pathogen][path]
-and [git submodules][gitsm] to manage plugins.  Many of the configurations
-used in here are inspired by [Janus][janus].
+This repo is our baseline `~/.vim/` directory.  It uses [git submodules][gitsm]
+and the (Vim 8+) native "pack" system to manage plugins. Many of the
+configurations used in here are inspired by [Janus][janus].
+
 
 Installation
 ============
@@ -99,20 +100,6 @@ Customization
 ----------------------
 You can use a `~/.vimrc.local` or `~/.gvimrc.local` file to add customizations
 that are specific to a particular machine.
-
-Disabling Pathogen plugins
---------------------------
-Of course you can delete them, but there's also a mechanism for disabling
-specific plugins in `~/.vim/plugin/01-plugin-disable.vim`
-
-Adding Pathogen plugins
------------------------
-We'll look in `~/.bundle` for pathogen bundles as well, so feel free to
-add some in there.
-
-And of course...
-----------------
-You're always welcome to fork it.
 
 Credits
 =======
