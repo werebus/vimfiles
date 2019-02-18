@@ -7,7 +7,7 @@ function die()
 }
 
 # Add <strong>.old</strong> to any existing Vim file in the home directory
-for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do
+for i in $HOME/.vimrc $HOME/.gvimrc $HOME/.vim; do
   if [[ ( -e $i ) ]]; then
     echo "${i} has been renamed to ${i}.old"
     mv "${i}" "${i}.old" || die "Could not move ${i} to ${i}.old"
@@ -21,3 +21,7 @@ git clone --recursive https://github.com/werebus/vimfiles.git $HOME/.vim \
 # Link the config files in
 ln -s $HOME/.vim/vimrc $HOME/.vimrc || die "Could not link .vimrc file"
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc || die "Could not link .gvimrc file"
+
+# Install the powerline patched fonts
+[ -f $HOME/.vim/powerline-fonts/install.sh ] && \
+  $HOME/.vim/powerline-fonts/install.sh Inconsolata

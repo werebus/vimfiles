@@ -193,4 +193,16 @@
 [submodule "bundle-langs/openhab"]
 	path = bundle-langs/openhab
 	url = https://github.com/cyberkov/openhab-vim.git
-  ignore = dirty
+	ignore = dirty
+[submodule "bundle-tools/vim-airline"]
+	path = bundle-tools/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+	ignore = dirty
+[submodule "bundle-tools/vim-airline-themes"]
+	path = bundle-tools/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+	ignore = dirty
+[submodule "powerline-fonts"]
+	path = powerline-fonts
+	url = https://github.com/powerline/fonts.git
+	ignore = dirty
