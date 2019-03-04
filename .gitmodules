@@ -198,3 +198,7 @@
 	path = pack/tools/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
 	ignore = dirty
+[submodule "pack/tools/start/flog"]
+	path = pack/tools/start/flog
+	url = https://github.com/rbong/vim-flog.git
+	ignore = dirty
