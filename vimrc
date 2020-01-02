@@ -41,6 +41,7 @@ set viminfofile=~/.vim/info
 set wildmenu
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*
+set tags^=./.git/tags
 
 " Show linenumbers on printouts; use letter paper (not A4)
 set printoptions=number:y,paper:letter
