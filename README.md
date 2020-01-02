@@ -51,6 +51,10 @@ some other key in `plugin/00-leader.vim`*
 
     Awesome git integration.
 
+*   [Flog][flog]
+
+    Git log browser, mapped to `<Leader>g`.
+
 *   [Gundo][gundo]
 
     Mapped to `<Leader>u`, this plugin will show you a nifty graphical

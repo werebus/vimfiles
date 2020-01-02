@@ -178,10 +178,6 @@
 	path = pack/languages/start/latex
 	url = https://github.com/vim-latex/vim-latex.git
 	ignore = dirty
-[submodule "bundle-tools/tagbar"]
-	path = pack/tools/start/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-	ignore = dirty
 [submodule "bundle-langs/typescript"]
 	path = pack/languages/start/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
