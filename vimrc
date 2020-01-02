@@ -52,6 +52,7 @@ if has("autocmd")
 endif
 
 " Default color scheme
+packadd! Colour-Sampler-Pack
 color jellybeans+
 
 " Include user's local vimrc file

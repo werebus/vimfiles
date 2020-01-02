@@ -11,35 +11,35 @@
 	url = https://github.com/tpope/vim-git.git
 	ignore = dirty
 [submodule "bundle-colors/getafe"]
-	path = pack/colors/start/getafe
+	path = pack/colors/opt/getafe
 	url = https://github.com/larssmit/vim-getafe.git
 	ignore = dirty
 [submodule "bundle-colors/github"]
-	path = pack/colors/start/github
+	path = pack/colors/opt/github
 	url = https://github.com/telamon/vim-color-github.git
 	ignore = dirty
 [submodule "bundle-colors/irblack"]
-	path = pack/colors/start/irblack
+	path = pack/colors/opt/irblack
 	url = https://github.com/wgibbs/vim-irblack.git
 	ignore = dirty
 [submodule "bundle-colors/molokai"]
-	path = pack/colors/start/molokai
+	path = pack/colors/opt/molokai
 	url = https://github.com/vim-scripts/molokai.git
 	ignore = dirty
 [submodule "bundle-colors/pyte"]
-	path = pack/colors/start/pyte
+	path = pack/colors/opt/pyte
 	url = https://github.com/vim-scripts/pyte.git
 	ignore = dirty
 [submodule "bundle-colors/solarized"]
-	path = pack/colors/start/solarized
+	path = pack/colors/opt/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 	ignore = dirty
 [submodule "bundle-colors/vividchalk"]
-	path = pack/colors/start/vividchalk
+	path = pack/colors/opt/vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
 	ignore = dirty
 [submodule "bundle-colors/vwilight"]
-	path = pack/colors/start/vwilight
+	path = pack/colors/opt/vwilight
 	url = https://github.com/bry4n/vwilight.vim.git
 	ignore = dirty
 [submodule "bundle-langs/csv"]
@@ -155,7 +155,7 @@
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
 	ignore = dirty
 [submodule "bundle-colors/Colour-Sampler-Pack"]
-	path = pack/colors/start/Colour-Sampler-Pack
+	path = pack/colors/opt/Colour-Sampler-Pack
 	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
 	ignore = dirty
 [submodule "bundle-tools/ultisnips"]
