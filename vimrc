@@ -27,13 +27,14 @@ set ignorecase
 set smartcase
 
 " Temp files
+let $VIMHOME=expand('<sfile>:p:h')
 set backup
-set backupdir=~/.vim/backup
-set viewdir=~/.vim/views
-set directory=~/.vim/swap
+set backupdir=$VIMHOME/backup
+set viewdir=$VIMHOME/views
+set directory=$VIMHOME/swap
 set undofile
-set undodir=~/.vim/undo
-set viminfofile=~/.vim/info
+set undodir=$VIMHOME/undo
+set viminfofile=$VIMHOME/info
 
 " Tab completion
 set wildmenu
@@ -55,6 +56,6 @@ packadd! Colour-Sampler-Pack
 color jellybeans+
 
 " Include user's local vimrc file
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
+if filereadable(expand("$HOME/.vimrc.local"))
+  source $HOME/.vimrc.local
 endif
