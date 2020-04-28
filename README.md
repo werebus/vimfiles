@@ -6,22 +6,8 @@ configurations used in here are inspired by [Janus][janus].
 Installation
 ============
 ```bash
-$ curl -Lo- https://git.io/vgUw4 | bash
+$ git clone --recursive https://github.com/werebus/vimfiles.git ~/.vim
 ```
-
-_or_
-
-```bash
-$ wget -O- https://git.io/vgUw4 | bash
-```
-
-_Or_, feel free to clone it yourself
-
-```bash
-$ git clone --recursive https://github.com/umts/vimfiles.git ~/.vim
-```
-
-and then sym-link to or source the `vimrc` and `gvimrc` files as you like.
 
 Features
 ========
