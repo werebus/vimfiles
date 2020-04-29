@@ -62,17 +62,9 @@
 	path = pack/languages/start/markdown
 	url = https://github.com/tpope/vim-markdown.git
 	ignore = dirty
-[submodule "bundle-langs/nodejs"]
-	path = pack/languages/start/nodejs
-	url = https://github.com/mmalecki/vim-node.js.git
-	ignore = dirty
 [submodule "bundle-langs/rails"]
 	path = pack/languages/start/rails
 	url = https://github.com/tpope/vim-rails.git
-	ignore = dirty
-[submodule "bundle-langs/rspec"]
-	path = pack/languages/start/rspec
-	url = https://github.com/skwp/vim-rspec.git
 	ignore = dirty
 [submodule "bundle-langs/ruby"]
 	path = pack/languages/start/ruby
@@ -118,12 +110,8 @@
 	path = pack/tools/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = dirty
-[submodule "bundle-tools/css-color"]
-	path = pack/tools/start/css-color
-	url = https://github.com/skammer/vim-css-color.git
-	ignore = dirty
 [submodule "bundle-tools/gundo"]
-	path = pack/tools/start/gundo
+	path = pack/tools/opt/gundo
 	url = https://github.com/sjl/gundo.vim.git
 	ignore = dirty
 [submodule "bundle-tools/rename2"]
@@ -159,7 +147,7 @@
 	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
 	ignore = dirty
 [submodule "bundle-tools/ultisnips"]
-	path = pack/tools/start/ultisnips
+	path = pack/tools/opt/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
 	ignore = dirty
 [submodule "bundle-tools/vim-snippets"]
@@ -175,7 +163,7 @@
 	url = https://github.com/airblade/vim-gitgutter.git
 	ignore = dirty
 [submodule "bundle-langs/latex"]
-	path = pack/languages/start/latex
+	path = pack/languages/opt/latex
 	url = https://github.com/vim-latex/vim-latex.git
 	ignore = dirty
 [submodule "bundle-langs/typescript"]
@@ -198,3 +186,10 @@
 	path = pack/tools/start/flog
 	url = https://github.com/rbong/vim-flog.git
 	ignore = dirty
+[submodule "pack/tools/start/vim-rspec"]
+	path = pack/tools/start/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git
+	ignore = dirty
+[submodule "pack/tools/opt/vim-snipmate"]
+	path = pack/tools/opt/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
