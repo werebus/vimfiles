@@ -6,6 +6,6 @@ set guioptions-=L
 set guifont=Inconsolata\ Medium\ 20
 
 " Include user's local gvimrc file
-if filereadable(expand("~/.gvimrc.local"))
-  source ~/.gvimrc.local
+if filereadable(expand("$HOME/.gvimrc.local"))
+  source $HOME/.gvimrc.local
 endif

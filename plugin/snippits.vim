@@ -1,5 +1,5 @@
 if has('python3')
-	packadd ultisnips
+  packadd ultisnips
 else
-	packadd vim-snipmate
+  packadd vim-snipmate
 endif
