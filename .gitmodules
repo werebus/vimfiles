@@ -193,3 +193,8 @@
 [submodule "pack/tools/opt/vim-snipmate"]
 	path = pack/tools/opt/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+	ignore = dirty
+[submodule "pack/tools/start/simple-guifont"]
+	path = pack/tools/start/simple-guifont
+	url = https://github.com/awvalenti/vim-simple-guifont
+	ignore = dirty

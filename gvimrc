@@ -3,7 +3,7 @@ set guioptions-=T
 set guioptions-=r
 set guioptions-=L
 
-set guifont=Inconsolata\ Medium\ 20
+call simple_guifont#Set(['Inconsolata', 'Liberation Mono', 'DejaVu Sans Mono'], 'Consolas', 14)
 
 " Include user's local gvimrc file
 if filereadable(expand("$HOME/.gvimrc.local"))
